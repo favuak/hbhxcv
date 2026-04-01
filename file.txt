@@ -1,5 +1,4 @@
-profile-title: External VPN FREE
-
+#profile-title: External VPN FREE
 
 vless://6c56120f-efbd-4f47-9376-d527782cc6f2@85.239.40.194:443?type=tcp&security=reality&pbk=OA9TECp8x4P50GIt1t8cj6wsBfn4fSt0MvGw8ymQl10&fp=chrome&sni=fool.connectvpn.tech&sid=6ecfbf6756d74576&spx=%2F&flow=xtls-rprx-vision#🇺🇸 External VPN > США
 vless://6f482fa1-24db-4477-b3cb-d35f641ef0df@72.56.13.131:443?type=tcp&security=reality&pbk=HYfc5AEwK2_gITwgvBq8tTMMGn6Ver6G10qyOSgnvnE&fp=chrome&sni=arm.connectvpn.tech&sid=623884d6d3b945&spx=%2F&flow=xtls-rprx-vision#🇦🇲 External VPN > Армения

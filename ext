@@ -1,4 +1,2 @@
 #profile-title: External HACKED
-#new-url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
-vlesss://2420af47-2316-482e-bb0f-b164df4b2334@84.201.159.228:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#%F0%9F%87%A6%F0%9F%87%B1%20Albania%20%5B%2ACIDR%5D%20YA
-vless://2420af47-2316-482e-bb0f-b164df4b2334@84.201.159.228:443?security=reality&encryption=none&flow=xtls-rprx-vision&type=tcp&sni=ads.x5.ru&fp=chrome&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32&al
+#fallback-url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt

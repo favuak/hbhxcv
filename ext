@@ -1,9 +1,10 @@
 #profile-title: 👋 External VPN 
+#fallback-url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+
 #announce: ! Реворк VPN: Для получения доступа обновите несколько раз подписку без включенного VPN (на Wi-Fi) ! 
 #support-url: https://t.me/externalvpn_happ
 #subscription-userinfo: upload=0; download=2153701362; total=0
 #hide-settings: 1
 #ping-type: tcp
-#fallback-url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 
 #new-url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt

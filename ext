@@ -1,4 +1,5 @@
 #profile-title: External VPN 
 #announce: ! Для получения доступа к VPN подключитесь к Wi-Fi, подключитесь к серверу, обновите 2 раза !
 #new-url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
-vless://c8f0174c-547d-494a-9ea0-b5c248fe58cd@37.18.14.183:1111?security=reality&encryption=none&pbk=YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru#New Spoofed
+vless://c8f0174c-547d-494a-9ea0-b5c248fe58cd@37.18.14.183:1111?security=reality&encryption=none&pbk=YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru#Если срочно нужен интернет
+vless://75807638-6f19-0bb8-ae08-38492ee85c88@82.202.197.2:52006?security=tls&encryption=none&headerType=none&allowinsecure=1&type=tcp&flow=xtls-rprx-vision#Spoofed

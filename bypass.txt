@@ -1,0 +1,1777 @@
+{
+  "remarks": "Bypass",
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "🇩🇪 Германия 1 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.157.110",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 2 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.9.156",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 4 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.172.227",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 5 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.8.218",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 6 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.76.147",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 7 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.130.17",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.vk.com",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 8 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.129.214",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.vk.com",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 9 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.14.159",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 10 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.67.62",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 11 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.186.73",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 12 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.7.153",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 13 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.189.7",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 14 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.137.170",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 15 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.19.91",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 16 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.25.81",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 17 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.153.188",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 18 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.106.110",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 19 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.20.139",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 20 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.137.59",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 21 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.152.197",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 22 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.6.165",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 23 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.7.67",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 24 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.175.82",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 25 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.74.108",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 26 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.0.177",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 27 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.157.197",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 28 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.128.195",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 29 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.66.167",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 30 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.83.190",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 31 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.117.200",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 32 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.50.27",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 33 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.121.44",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 34 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.116.251",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 35 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.102.80",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": " 🇩🇪 Германия 36 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.111.68",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 37 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.170.112",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 38 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.164.114",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 39 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.223.182",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 40 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.131.98",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 41 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.114.126",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 42 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.150.45",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 43 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.170.185",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 44 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.38.228",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 Германия 45 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.119.237",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша 1 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.18.245",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша 2 | Мобильный Интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.25.132",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.vk.com",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша 3 | Мобильный интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.27.61",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша 4 | Мобильный интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.31.75",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша 5 | Мобильный интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.21.184",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша 6 | Мобильный интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.19.203",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "shortId": "6ba85179e30d4fc2",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша 7 | Мобильный интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.105.124",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 Польша 8 | Мобильный интернет",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.252.141.196",
+            "port": 5555,
+            "users": [
+              {
+                "id": "e2d75c7b-c8c6-4b87-809d-faa9b7109e5b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "🇩🇪 Германия 1 | Мобильный Интернет",
+      "🇩🇪 Германия 2 | Мобильный Интернет",
+      "🇩🇪 Германия 4 | Мобильный Интернет",
+      "🇩🇪 Германия 5 | Мобильный Интернет",
+      "🇩🇪 Германия 6 | Мобильный Интернет",
+      "🇩🇪 Германия 7 | Мобильный Интернет",
+      "🇩🇪 Германия 8 | Мобильный Интернет",
+      "🇩🇪 Германия 9 | Мобильный Интернет",
+      "🇩🇪 Германия 10 | Мобильный Интернет",
+      "🇩🇪 Германия 11 | Мобильный Интернет",
+      "🇩🇪 Германия 12 | Мобильный Интернет",
+      "🇩🇪 Германия 13 | Мобильный Интернет",
+      "🇩🇪 Германия 14 | Мобильный Интернет",
+      "🇩🇪 Германия 15 | Мобильный Интернет",
+      " 🇩🇪 Германия 16 | Мобильный Интернет",
+      " 🇩🇪 Германия 17 | Мобильный Интернет",
+      "🇩🇪 Германия 18 | Мобильный Интернет",
+      " 🇩🇪 Германия 19 | Мобильный Интернет",
+      "🇩🇪 Германия 20 | Мобильный Интернет",
+      " 🇩🇪 Германия 21 | Мобильный Интернет",
+      " 🇩🇪 Германия 22 | Мобильный Интернет",
+      " 🇩🇪 Германия 23 | Мобильный Интернет",
+      " 🇩🇪 Германия 24 | Мобильный Интернет",
+      " 🇩🇪 Германия 25 | Мобильный Интернет",
+      " 🇩🇪 Германия 26 | Мобильный Интернет",
+      "🇩🇪 Германия 27 | Мобильный Интернет",
+      " 🇩🇪 Германия 28 | Мобильный Интернет",
+      "🇩🇪 Германия 29 | Мобильный Интернет",
+      "🇩🇪 Германия 30 | Мобильный Интернет",
+      "🇩🇪 Германия 31 | Мобильный Интернет",
+      "🇩🇪 Германия 32 | Мобильный Интернет",
+      "🇩🇪 Германия 33 | Мобильный Интернет",
+      "🇩🇪 Германия 34 | Мобильный Интернет",
+      "🇩🇪 Германия 35 | Мобильный Интернет",
+      " 🇩🇪 Германия 36 | Мобильный Интернет",
+      "🇩🇪 Германия 37 | Мобильный Интернет",
+      "🇩🇪 Германия 38 | Мобильный Интернет",
+      "🇩🇪 Германия 39 | Мобильный Интернет",
+      "🇩🇪 Германия 40 | Мобильный Интернет",
+      "🇩🇪 Германия 41 | Мобильный Интернет",
+      "🇩🇪 Германия 42 | Мобильный Интернет",
+      "🇩🇪 Германия 43 | Мобильный Интернет",
+      "🇩🇪 Германия 44 | Мобильный Интернет",
+      "🇩🇪 Германия 45 | Мобильный Интернет",
+      "🇵🇱 Польша 1 | Мобильный Интернет",
+      "🇵🇱 Польша 2 | Мобильный Интернет",
+      "🇵🇱 Польша 3 | Мобильный интернет",
+      "🇵🇱 Польша 4 | Мобильный интернет",
+      "🇵🇱 Польша 5 | Мобильный интернет",
+      "🇵🇱 Польша 6 | Мобильный интернет",
+      "🇵🇱 Польша 7 | Мобильный интернет",
+      "🇵🇱 Польша 8 | Мобильный интернет"
+    ],
+    "pingConfig": {
+      "destination": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "sampling": 3,
+      "timeout": "2s",
+      "httpMethod": "GET"
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "balancers": [
+      {
+        "tag": "_-balancer",
+        "selector": [
+          "🇩🇪 Германия 1 | Мобильный Интернет",
+          "🇩🇪 Германия 2 | Мобильный Интернет",
+          "🇩🇪 Германия 4 | Мобильный Интернет",
+          "🇩🇪 Германия 5 | Мобильный Интернет",
+          "🇩🇪 Германия 6 | Мобильный Интернет",
+          "🇩🇪 Германия 7 | Мобильный Интернет",
+          "🇩🇪 Германия 8 | Мобильный Интернет",
+          "🇩🇪 Германия 9 | Мобильный Интернет",
+          "🇩🇪 Германия 10 | Мобильный Интернет",
+          "🇩🇪 Германия 11 | Мобильный Интернет",
+          "🇩🇪 Германия 12 | Мобильный Интернет",
+          "🇩🇪 Германия 13 | Мобильный Интернет",
+          "🇩🇪 Германия 14 | Мобильный Интернет",
+          "🇩🇪 Германия 15 | Мобильный Интернет",
+          " 🇩🇪 Германия 16 | Мобильный Интернет",
+          " 🇩🇪 Германия 17 | Мобильный Интернет",
+          "🇩🇪 Германия 18 | Мобильный Интернет",
+          " 🇩🇪 Германия 19 | Мобильный Интернет",
+          "🇩🇪 Германия 20 | Мобильный Интернет",
+          " 🇩🇪 Германия 21 | Мобильный Интернет",
+          " 🇩🇪 Германия 22 | Мобильный Интернет",
+          " 🇩🇪 Германия 23 | Мобильный Интернет",
+          " 🇩🇪 Германия 24 | Мобильный Интернет",
+          " 🇩🇪 Германия 25 | Мобильный Интернет",
+          " 🇩🇪 Германия 26 | Мобильный Интернет",
+          "🇩🇪 Германия 27 | Мобильный Интернет",
+          " 🇩🇪 Германия 28 | Мобильный Интернет",
+          "🇩🇪 Германия 29 | Мобильный Интернет",
+          "🇩🇪 Германия 30 | Мобильный Интернет",
+          "🇩🇪 Германия 31 | Мобильный Интернет",
+          "🇩🇪 Германия 32 | Мобильный Интернет",
+          "🇩🇪 Германия 33 | Мобильный Интернет",
+          "🇩🇪 Германия 34 | Мобильный Интернет",
+          "🇩🇪 Германия 35 | Мобильный Интернет",
+          " 🇩🇪 Германия 36 | Мобильный Интернет",
+          "🇩🇪 Германия 37 | Мобильный Интернет",
+          "🇩🇪 Германия 38 | Мобильный Интернет",
+          "🇩🇪 Германия 39 | Мобильный Интернет",
+          "🇩🇪 Германия 40 | Мобильный Интернет",
+          "🇩🇪 Германия 41 | Мобильный Интернет",
+          "🇩🇪 Германия 42 | Мобильный Интернет",
+          "🇩🇪 Германия 43 | Мобильный Интернет",
+          "🇩🇪 Германия 44 | Мобильный Интернет",
+          "🇩🇪 Германия 45 | Мобильный Интернет",
+          "🇵🇱 Польша 1 | Мобильный Интернет",
+          "🇵🇱 Польша 2 | Мобильный Интернет",
+          "🇵🇱 Польша 3 | Мобильный интернет",
+          "🇵🇱 Польша 4 | Мобильный интернет",
+          "🇵🇱 Польша 5 | Мобильный интернет",
+          "🇵🇱 Польша 6 | Мобильный интернет",
+          "🇵🇱 Польша 7 | Мобильный интернет",
+          "🇵🇱 Польша 8 | Мобильный интернет"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "expected": 1,
+            "baselines": [
+              "1s"
+            ],
+            "tolerance": 0.8
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "network": "udp",
+        "port": "443",
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "localhost",
+          "localhost.localdomain",
+          "local",
+          "*.local",
+          "*.localdomain",
+          "*.lan",
+          "*.internal"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "ip": [
+          "127.0.0.0/8",
+          "10.0.0.0/8",
+          "172.16.0.0/12",
+          "192.168.0.0/16",
+          "169.254.0.0/16",
+          "::1/128",
+          "fc00::/7",
+          "fe80::/10"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "_-balancer"
+      }
+    ]
+  }
+}

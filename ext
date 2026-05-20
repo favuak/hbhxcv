@@ -1,6 +1,4 @@
-#profile-title: External VPN 
-#announce: ! Для получения доступа к VPN подключитесь к Wi-Fi, подключитесь к серверу, обновите 2 раза !
-#new-url: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+
 {
   "remarks": "Bypass",
   "dns": {
